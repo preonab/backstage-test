@@ -6,7 +6,7 @@ metadata:
   labels:
     example.com/custom: custom_label_value
   annotations:
-    example.com/service-discovery: artistweb
+    example.com/service-discovery: preonab
     circleci.com/project-slug: github/example-org/artist-website
   tags:
     - java
