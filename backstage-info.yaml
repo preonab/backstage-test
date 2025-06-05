@@ -7,7 +7,7 @@ metadata:
     example.com/custom: custom_label_value
   annotations:
     example.com/service-discovery: preonab
-    github.com/project-slug: 'backstage-test'
+    github.com/project-slug: 'preonab/backstage-test'
     circleci.com/project-slug: github/example-org/artist-website
   tags:
     - java
