@@ -10,6 +10,7 @@ metadata:
     github.com/project-slug: 'preonab/backstage-test'
     circleci.com/project-slug: github/example-org/artist-website
     backstage.io/techdocs-entity: component:default/example
+    backstage.io/techdocs-ref: value
   tags:
     - java
   links:
