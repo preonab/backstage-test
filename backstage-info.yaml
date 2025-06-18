@@ -10,6 +10,8 @@ metadata:
     github.com/project-slug: 'preonab/backstage-test'
     circleci.com/project-slug: github/example-org/artist-website
     backstage.io/techdocs-entity: component:default/example
+    prometheus.io/rule: memUsage|component,node_memory_active_bytes|instance,sum by (instance) (node_cpu_seconds_total)
+    prometheus.io/alert: all
   tags:
     - java
   links:
