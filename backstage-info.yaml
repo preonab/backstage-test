@@ -10,7 +10,8 @@ metadata:
     github.com/project-slug: 'preonab/backstage-test'
     circleci.com/project-slug: github/example-org/artist-website
     backstage.io/techdocs-entity: component:default/example
-    prometheus.io/rule: process_resident_memory_bytes|job or process_cpu_usage * 100|job
+    prometheus.io/rule.1: process_resident_memory_bytes|job
+    prometheus.io/rule.2: process_cpu_usage * 100|job
     prometheus.io/alert: all
   tags:
     - java
