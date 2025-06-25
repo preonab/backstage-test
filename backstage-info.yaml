@@ -11,6 +11,7 @@ metadata:
     circleci.com/project-slug: github/example-org/artist-website
     backstage.io/techdocs-entity: component:default/example
     prometheus.io/rule: process_resident_memory_bytes|job
+    prometheus.io/rule: process_cpu_usage*100|job
     prometheus.io/alert: all
   tags:
     - java
